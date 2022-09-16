@@ -49,3 +49,46 @@ border-radius: 6px;
     border-radius: 15px;
     
 }
+
+
+
+
+.tela-fundo{
+    text-align: center;
+    background-image:url(../html/tela.jpg);
+    background-size: cover;
+}
+
+.mascara{
+    background: rgba(41, 41, 41, 0.185);
+    height: 100vh;
+    padding: 10px;
+}
+.borda{
+  
+ 
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.titulo{
+    margin: 0;
+    font-size: 'inter';
+    font-weight: 800;
+    font-size: 48px;
+    color:rgba(255, 255, 255, 0.856);
+}
+.botao{
+    font-family:  'inter';
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+    background:#12597ccc ;
+    width: 257px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 20px;
+    border-radius: 67px;
+}
